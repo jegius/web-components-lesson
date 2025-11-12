@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "node_modules/.bin/slidev build",
+    "build": "slidev build --base /web-components-lesson/",
     "dev": "node_modules/.bin/slidev --open",
     "export": "node_modules/.bin/slidev export"
   },
